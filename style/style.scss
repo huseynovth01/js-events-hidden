@@ -104,6 +104,7 @@
             letter-spacing:1px;
             justify-content: space-between;
             .btn_x_2{
+                margin-top: -20px;
                 cursor: pointer;
                 padding: 5px 5px;
                 box-shadow: none;
@@ -135,17 +136,25 @@
                 padding: 30px 160px;
                 border-radius: 4px;
                 border: 1px;
+                cursor: pointer;
 
             }
 
         }
         .radio{
             margin-top: 20px;
+            cursor: pointer;
             label{
                 font-size: 17px;
                 font-family: Arial, Helvetica, sans-serif;
             }
             
         }
-
+        button{
+            padding: 15px 60px;
+            border-radius: 4px;
+            border: 1px;
+            margin-left: 76%;
+            margin-top: 6%;
+        }
     }
