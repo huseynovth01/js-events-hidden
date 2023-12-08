@@ -7,6 +7,7 @@
   width: 100%;
   height: 100vh;
   background-color: #b9b6b6;
+  z-index: 4;
   opacity: 0.5;
 }
 
@@ -43,6 +44,7 @@
   border-radius: 10px;
   padding: 40px 40px 40px;
   position: absolute;
+  z-index: 4;
 }
 .information_center hr {
   color: #737373;
@@ -84,22 +86,24 @@
   color: #737373;
 }
 
-.order_call {
+.order_call1 {
   margin-top: 10%;
   background-color: rgb(227, 210, 210);
   width: 70%;
   margin-left: 15%;
   border-radius: 10px;
   padding: 40px 40px 40px;
+  position: absolute;
+  z-index: 2;
 }
-.order_call .text_time {
+.order_call1 .text_time {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
   letter-spacing: 1px;
   justify-content: space-between;
 }
-.order_call .text_time .btn_x_2 {
+.order_call1 .text_time .btn_x_2 {
   margin-top: -20px;
   cursor: pointer;
   padding: 5px 5px;
@@ -109,38 +113,54 @@
   font-size: xx-large;
   color: #6b6767;
 }
-.order_call hr {
+.order_call1 hr {
   color: #737373;
   margin-top: 20px;
 }
-.order_call h3 {
+.order_call1 h3 {
   font-family: Arial, Helvetica, sans-serif;
   color: #737373;
   font-weight: 100;
 }
-.order_call .forms {
+.order_call1 .forms {
   display: flex;
   gap: 10px;
   margin-top: 20px;
 }
-.order_call .forms input {
+.order_call1 .forms input {
   padding: 30px 160px;
   border-radius: 4px;
   border: 1px;
   cursor: pointer;
 }
-.order_call .radio {
+.order_call1 .radio {
   margin-top: 20px;
   cursor: pointer;
 }
-.order_call .radio label {
+.order_call1 .radio label {
   font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.order_call button {
+.order_call1 button {
   padding: 15px 60px;
   border-radius: 4px;
   border: 1px;
   margin-left: 76%;
   margin-top: 6%;
+}
+
+.hidden1 {
+  display: none;
+}
+
+.overlay1 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #b9b6b6;
+  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */

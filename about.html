@@ -31,8 +31,10 @@
                 Birbasa zeng</h4>
                 <h4><i class="fa-solid fa-globe"></i>
                     Onlayn zeng
-                </h4>
-                <h4><i class="fa-solid fa-book"></i>
+                </h4 >
+
+                <h4 id="btn-call">
+                    <i class="fa-solid fa-book"></i>
                 Zeng sifarisi</h4>
         </div>
 
@@ -42,40 +44,40 @@
 
      <!-- order call start -->
 
-     <div class="overlay hidden"></div>
-
-<div class="order_call">
-    <div class="text_time">
-        <h2>Zeng sifarisi</h2>
-        <button class="btn_x_2">⨉</button>
-    </div>
-    <hr>
-    <h3>Xidmət vaxtı: Bazar ertəsi - Cümə, 10:00–18:00</h3>
-
-
-    <div class="forms">
-        <form class="ad-soyad">
-            <input type="text" placeholder="Ad,soyad">
-            <input type="text" placeholder="Telefon">
-        </form>
-    </div>
-    <div class="radio">
-        <input type="radio" name="time" >
-        <label >Mumkun qeder tez</label>
-        <input type="radio" name="time">
-        <label >Nahardan əvvəl</label>
-        <input type="radio" name="time">
-        <label >Nahardan sonra</label>
-    </div>
-    <hr>
-    <button>Zeng sifarisi</button>
-
-</div>
-
-     <!-- order call finish -->
-
-
-     <script src="./js/about.js"></script>
-
+     
+     <div class="order_call1 hidden1">
+         <div class="text_time">
+             <h2>Zeng sifarisi</h2>
+             <button class="btn_x_2" onclick="closeorder()">⨉</button>
+            </div>
+            <hr>
+            <h3>Xidmət vaxtı: Bazar ertəsi - Cümə, 10:00–18:00</h3>
+            
+            
+            <div class="forms">
+                <form class="ad-soyad">
+                    <input type="text" placeholder="Ad,soyad">
+                    <input type="text" placeholder="Telefon">
+                </form>
+            </div>
+            <div class="radio">
+                <input type="radio" name="time" >
+                <label >Mumkun qeder tez</label>
+                <input type="radio" name="time">
+                <label >Nahardan əvvəl</label>
+                <input type="radio" name="time">
+                <label >Nahardan sonra</label>
+            </div>
+            <hr>
+            <button>Zeng sifarisi</button>
+            
+        </div>
+        
+        <!-- order call finish -->
+        <div class="overlay1 hidden1"></div>
+        
+        
+        <script src="./js/about.js"></script>
+        
 </body>
 </html>
