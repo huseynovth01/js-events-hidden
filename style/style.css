@@ -96,6 +96,16 @@
   position: absolute;
   z-index: 2;
 }
+.order_call1 .call_order {
+  color: #fff;
+  background-color: black;
+}
+.order_call1 .call_order:hover {
+  background-color: #3a7999;
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.4s;
+}
 .order_call1 .text_time {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
