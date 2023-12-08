@@ -1,21 +1,4 @@
-// var overlay = document.querySelector(".overlay");
-// var information_center = document.querySelector(".information_center");
-// var openBtn = document.querySelector(".btn_phone");
-// var closeBtn = document.querySelector(".btn_x");
-
-// function openBtn() {
-//     information_center.classList.remove("hidden")
-//     overlay.classList.remove("hidden")
-// }
-
-// function closeBtn (){
-//     information_center.classList.add("hidden")
-//     overlay.classList.add("hidden")
-// }
-
-// openBtn.addEventListener("click",openBtn);
-// closeBtn.addEventListener("click",closeBtn);
-// overlay.addEventListener("click",closeBtn);
+// information_center
 
 var overlay = document.querySelector(".overlay");
 var information_center = document.querySelector(".information_center");
@@ -43,8 +26,9 @@ document.addEventListener("keydown",function(event){
     }
 })
 
+// ---------------------------------------------------------
 
-
+// order call
 
 var overlay1 = document.querySelector(".overlay1");
 var order_call1 = document.querySelector(".order_call1");
@@ -65,12 +49,9 @@ function closeorder(){
     overlay1.classList.add("hidden1")
 }
 
-// text_time.addEventListener("click",order_call1)
-
-
 
 overlay1.addEventListener("click", closeorder)
 
-// btn_x_2.addEventListener("click", closeorder)
-
 btn_cal.addEventListener("click", openorder)
+
+// -----------------------------------------------------
