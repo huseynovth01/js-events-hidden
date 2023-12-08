@@ -51,4 +51,3 @@ function closeorder(){
 overlay1.addEventListener("click", closeorder)
 btn_cal.addEventListener("click", openorder)
 
-// -----------------------------------------------------
