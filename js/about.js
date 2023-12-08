@@ -41,7 +41,6 @@ function openorder(){
     order_call1.classList.remove("hidden1")
     overlay.classList.add("hidden")
     overlay1.classList.remove("hidden1")
-    
 }
 
 function closeorder(){
@@ -49,9 +48,7 @@ function closeorder(){
     overlay1.classList.add("hidden1")
 }
 
-
 overlay1.addEventListener("click", closeorder)
-
 btn_cal.addEventListener("click", openorder)
 
 // -----------------------------------------------------
